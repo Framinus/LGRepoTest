@@ -11,7 +11,7 @@ function james(str) {
     strArray[i] = strArray[randomIndex];
     strArray[randomIndex] = temp;
   }
-
+  // joining the sorting array into a string for final output
   const shuffledStr = strArray.join('');
   return shuffledStr;
 }
